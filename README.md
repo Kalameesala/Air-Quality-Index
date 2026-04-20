@@ -4,11 +4,26 @@
 This project predicts Air Quality Index (AQI) using machine learning models based on environmental sensor data.
 
 ###  Features
-- Multiple ML models (Linear Regression, Random Forest, SVR, Ridge, XGBoost)
-- Hyperparameter tuning using Optuna
-- Feature selection & preprocessing pipelines
-- Model interpretability using SHAP 
-- Power BI dashboard visualization
+- Data Cleaning:
+  - Handled missing values using interpolation techniques
+  - Detected and treated outliers to improve data quality  
+
+- Data Processing & Analysis:
+  - Used SQL for data cleaning, querying, and initial analysis
+  - Combined SQL with Python for advanced data processing
+  - Link:-https://colab.research.google.com/drive/1IkdaPZ7J-aGDILWJVZ5-ufuh2NI2r3LI?usp=sharing
+
+- Data Visualization:
+  - Performed exploratory data analysis (EDA) using Python
+  - Built interactive dashboards using Power BI  
+
+- Machine Learning Models:
+  - Implemented Linear Regression, Random Forest, SVR, Ridge, XGBoost  
+  - Applied feature selection and preprocessing pipelines  
+
+- Model Optimization & Explainability:
+  - Hyperparameter tuning using Optuna  
+  - Model interpretability using SHAP 
 
 ### Tech Stack
 - Python
@@ -18,6 +33,8 @@ This project predicts Air Quality Index (AQI) using machine learning models base
 
 ### Results
 Achieved high accuracy using ensemble models and optimization techniques.
+
+Project Link:-https://colab.research.google.com/drive/1NpVnHJYfQaXVOH7MhWoCZ9Pc7Fvc9DyK?usp=sharing
 
 ###  How to Run
 ```bash
